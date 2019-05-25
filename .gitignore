@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+logs/
+*.pkl
+*.swp
+*.log
+*.out
+.DS_Store
