@@ -21,7 +21,7 @@ ulimit -n 4096
 
 python -m torch.distributed.launch \
   --nproc_per_node=4 --nnodes=1 --node_rank=0 \
-  ./tikhonov.py $IMGDATA \
+  ./train.py $IMGDATA \
   --tikhonov 0.1 \
   --workers=4 \
   --init-bn0 \

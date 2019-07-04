@@ -10,6 +10,7 @@ import warnings
 from datetime import datetime
 
 import torch.backends.cudnn as cudnn
+from torch import nn
 import torch.distributed as dist
 import torch.optim
 import torch.utils.data
